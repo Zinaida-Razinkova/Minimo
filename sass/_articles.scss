@@ -1,0 +1,33 @@
+.articles {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.articles__content {
+  display: flex;
+  align-items: start;
+  gap: 60px;
+
+  @media screen and (max-width: 475px) {
+      flex-direction: column;
+    }
+}
+
+.articles__article img {
+  margin-bottom: 26px;
+}
+
+.articles__article a {
+  color: var(--color4);
+  font-size: 32px;
+  letter-spacing: 0.45px;
+
+  &:hover,
+  &:focus {
+    color: var(--color3);
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 22px;
+  }
+}

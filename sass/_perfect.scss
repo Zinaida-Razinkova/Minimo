@@ -1,0 +1,85 @@
+.perfect {
+  padding: 95px 0 40px 0;
+  @media screen and (max-width: 768px) {
+    padding: 40px 0;
+  }
+}
+
+.perfect__container{
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: end;
+  }
+}
+
+.perfect__title {
+  margin-bottom: 20px;
+}
+
+.perfect__link {
+  color: var(--color5);
+  font-family: var(--font2);
+  font-size: 16px;
+  letter-spacing: -1.5px;
+  text-transform: uppercase;
+  &:hover,
+  &:focus {
+    color: var(--color3);
+  }
+}
+
+.perfect__paragraph {
+  margin-bottom: 44px;
+}
+
+.perfect__content {
+  @media screen and (min-width: 768px) {
+    width: 64%;
+    margin-right: 27px;
+  }
+}
+
+.perfect__img {
+  margin-top: 40px;
+}
+
+.perfect__quote {
+  margin: 35px 12px 26px 12px;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.001em;
+}
+
+.perfect__share {
+  margin: 40px 0 60px 0;
+  color: var(--color5);
+}
+
+.perfect__share p {
+  margin-bottom: 10px;
+}
+
+.perfect__list {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.icon-color {
+  fill: var(--color5);
+
+  &:hover,
+  &:focus {
+    fill: var(--color3);
+  }
+}
+.icon-color2 {
+  fill: var(--color4);
+
+  &:hover,
+  &:focus {
+    fill: var(--color3);
+  }
+}
