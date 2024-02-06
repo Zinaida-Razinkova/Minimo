@@ -4,7 +4,9 @@
 }
 
 .like__list {
+  display: flex;
   @media screen and (max-width: 767.98px) {
+    flex-direction: column;
     row-gap: 30px;
   }
 
@@ -27,6 +29,12 @@
   &:focus {
     color: var(--color3);
   }
+}
+
+.like__title {
+  @media screen and (max-width: 767.98px) {
+      margin-top: 20px;
+    }
 }
 
 .like_item img {

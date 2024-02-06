@@ -16,6 +16,12 @@
     display: flex;
     align-items: center;
   }
+ &:not(:last-child) {
+  @media screen and (max-width: 767.98px) {
+      margin-bottom: 10px;
+    }
+   
+ }
 }
 
 .footer-text__size {

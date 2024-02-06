@@ -1,6 +1,6 @@
 .articles {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .articles__content {
@@ -11,6 +11,10 @@
   @media screen and (max-width: 475px) {
       flex-direction: column;
     }
+}
+
+.articles__title {
+  margin-bottom: 10px;
 }
 
 .articles__article img {
